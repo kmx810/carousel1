@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: museo-sans,sans-serif;
+    color: #484848;
+}
+#main{
+    display: flex;
+    position: absolute;
+    transition-duration: 0.3s;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    width: 269px;
+}
+.panel img{
+    height: 150px;
+    width: 267px;
+    transition-duration: 0.2s;
+    border-radius: 7px;
+    border: 1px solid rgb(187, 187, 187);
+    cursor: pointer;
+    object-fit: cover;
+}
+.panel img:hover{
+    filter: brightness(0.8);
+}
+.panel h2{
+    display: inline;
+    margin-top: 1.2em;
+    font-size: 1em;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.panel h2:hover{
+    color: red;
+}
+.panel p{
+    display: inline-block;
+    margin-top: 0.8em;
+    font-size: 0.8em;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.6em;
+}
